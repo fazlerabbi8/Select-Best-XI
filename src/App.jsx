@@ -1,8 +1,11 @@
+import Navbar from "./components/Header/Navbar"
+
 function App() {
   return (
     <>
-      <h2 className="text-5xl">hello world</h2>
-      <button className="btn btn-accent"></button>
+      <div className="w-11/12 mx-auto">
+        <Navbar></Navbar>
+      </div>
     </>
   )
 }
