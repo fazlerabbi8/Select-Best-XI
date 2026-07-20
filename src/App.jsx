@@ -11,6 +11,20 @@ function App() {
 
   const [selectedPlayers, setSelectedPlayers] = useState([]);
 
+  const [credit, setCredit] = useState(0);
+  const [claimed, setClaimed] = useState(false);
+
+  const handleClaim = () => {
+    if (claimed) {
+      toast.error("You already claimed your free credit!");
+      return;
+    }
+    setCredit((prev) => prev + 30000000);
+    setClaimed(true);
+    toast.success("30,000,000 credit added!");
+  };
+
+
   const handleSelectedPlayer = (player) => {
     const isExist = selectedPlayers.find((p) => p.id == player.id);
 
@@ -19,6 +33,7 @@ function App() {
     } else {
       const newPlayers = [...selectedPlayers, player];
       setSelectedPlayers(newPlayers);
+
       toast.success("Player selected successfully!");
     }
   };
@@ -27,12 +42,12 @@ function App() {
     <>
       {/* navbar */}
       <div className="w-11/12 mx-auto">
-        <Navbar></Navbar>
+        <Navbar credit={credit}></Navbar>
       </div>
 
       {/* Hero section */}
       <div className="w-11/12 mx-auto">
-        <Hero></Hero>
+        <Hero handleClaim={handleClaim} claimed={claimed}></Hero>
       </div>
 
       {/* toggle section */}

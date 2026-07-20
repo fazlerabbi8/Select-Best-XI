@@ -1,5 +1,5 @@
 import logo from "../../assets/images/logo.png";
-const Navbar = () => {
+const Navbar = ({credit}) => {
   return (
     <div>
       <div class="navbar">
@@ -61,7 +61,7 @@ const Navbar = () => {
         </div>
         <div class="navbar-end">
           <button class="btn">
-            Inbox <div class="badge badge-sm">60000000000</div>
+            Money <div class="badge badge-sm">{credit}</div>
           </button>
         </div>
       </div>

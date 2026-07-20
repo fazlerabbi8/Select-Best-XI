@@ -1,6 +1,6 @@
 import hero from "../../assets/images/banner-main.png";
 
-const Hero = () => {
+const Hero = ({ handleClaim, claimed }) => {
   return (
     <div className="px-5 py-10">
       <div
@@ -25,7 +25,7 @@ const Hero = () => {
               Beyond Boundaries Beyond Limits
             </p>
 
-            <button className="btn btn-warning">
+            <button onClick={handleClaim} disabled={claimed}className="btn btn-warning">
               Claim Free Credit
             </button>
           </div>
