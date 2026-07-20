@@ -1,4 +1,4 @@
-const Selected = ({ selectedPlayers }) => {
+const Selected = ({ selectedPlayers, handleDelete }) => {
   return (
     <div>
       {selectedPlayers.map((player) => (
@@ -13,7 +13,7 @@ const Selected = ({ selectedPlayers }) => {
             </div>
           </div>
           <div>
-            <button className="btn btn-error">Delete</button>
+            <button onClick={() => handleDelete(player.id)} className="btn btn-error">Delete</button>
           </div>
         </div>
       ))}

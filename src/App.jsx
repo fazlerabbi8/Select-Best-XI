@@ -14,15 +14,22 @@ function App() {
   const [credit, setCredit] = useState(0);
   const [claimed, setClaimed] = useState(false);
 
+
   const handleClaim = () => {
     if (claimed) {
       toast.error("You already claimed your free credit!");
       return;
     }
-    setCredit((prev) => prev + 8000000);
+    setCredit((prev) => prev + 10000000);
     setClaimed(true);
-    toast.success("30,000,000 credit added!");
+    toast.success("10000000 credit added!");
   };
+
+
+  const handleDelete = (id) =>{
+    const remainingPlayer = selectedPlayers.filter((p) =>p.id !== id);
+    setSelectedPlayers(remainingPlayer);
+  }
 
   const handleSelectedPlayer = (player) => {
     const isExist = selectedPlayers.find((p) => p.id == player.id);
@@ -66,7 +73,7 @@ function App() {
           <AllPlayers handleSelectedPlayer={handleSelectedPlayer} 
           credit={credit}/>
         ) : (
-          <Selected selectedPlayers={selectedPlayers} />
+          <Selected handleDelete = {handleDelete} selectedPlayers={selectedPlayers} />
         )}
       </div>
     </>

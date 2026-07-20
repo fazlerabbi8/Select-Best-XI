@@ -17,7 +17,7 @@ const Toggle = ({ activeTab, setActiveTab, selectedPlayers }) => {
           onClick={() => setActiveTab("selected")}
           className={`btn ${activeTab === "selected" ? "btn-warning" : ""}`}
         >
-          Selected {selectedPlayers.length}
+          Selected ({selectedPlayers.length})
         </button>
       </div>
     </div>
