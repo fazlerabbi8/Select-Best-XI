@@ -19,6 +19,7 @@ function App() {
     } else {
       const newPlayers = [...selectedPlayers, player];
       setSelectedPlayers(newPlayers);
+      toast.success("Player selected successfully!");
     }
   };
 
