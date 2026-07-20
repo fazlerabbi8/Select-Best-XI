@@ -7,7 +7,7 @@
     "rating": 4.9,
     "battingStyle": "Right-Hand-Bat",
     "price": 2500000,
-    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkzUsxy2h4DzrQ-uyXvcrBC1h-Afpb3v6JppTLpVhwPg&s=10"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKhdsa_nI0ZfAr_gF1KoPURLXmpjk90dWgN_T8R3yD7g&s"
   },
   {
     "id": 2,
@@ -17,17 +17,17 @@
     "rating": 4.8,
     "battingStyle": "Right-Hand-Bat",
     "price": 2400000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Rohit_Sharma_2019.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQU3XZjSKhtJAJNrtD2MH6NjphJT6kQliSdfrUYUBB_ag&s=10"
   },
   {
     "id": 3,
-    "name": "Shakib Al Hasan",
-    "country": "Bangladesh",
+    "name": "Avishek Sharma",
+    "country": "India",
     "role": "All-Rounder",
     "rating": 4.9,
     "battingStyle": "Left-Hand-Bat",
     "price": 2300000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/56/Shakib_Al_Hasan.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlkBz3xUXNCYKpghZR40UGbHVZCXe7fk3kp_mWZK03Rw&s=10"
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "rating": 4.9,
     "battingStyle": "Right-Hand-Bat",
     "price": 2600000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/3/37/Babar_Azam.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQj_rgzdvi9fOH7G4xDLjSZGJMYj6E4Sr3G7w_m6QDGj4Ps4Z3PtJ_OYKM&s=10"
   },
   {
     "id": 5,
@@ -47,7 +47,7 @@
     "rating": 4.8,
     "battingStyle": "Right-Hand-Bat",
     "price": 2200000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/09/Kane_Williamson.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEa5lakZTtcCv90b7Po1oHskJ_S2AaSjw0q0JBwVzvuQ&s=10"
   },
   {
     "id": 6,
@@ -57,7 +57,7 @@
     "rating": 4.9,
     "battingStyle": "Left-Hand-Bat",
     "price": 2700000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ben_Stokes.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRC30NXcbVOaukOTxxgb5lU7RY418rTuMo_ZGbQiWhelw&s=10"
   },
   {
     "id": 7,
@@ -67,7 +67,7 @@
     "rating": 4.8,
     "battingStyle": "Right-Hand-Bat",
     "price": 2400000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Jos_Buttler.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFg3aiKrvlxZ8IgfUhe2sQTQv05GyFUDzqPuF4QJvzlA&s=10"
   },
   {
     "id": 8,
@@ -77,7 +77,7 @@
     "rating": 4.8,
     "battingStyle": "Right-Hand-Bat",
     "price": 2100000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Pat_Cummins.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRH47ppK-5DnVWyMsLkSt5eHoscsagjMnm1cLMlTivBwQ&s=10"
   },
   {
     "id": 9,
@@ -87,7 +87,7 @@
     "rating": 4.7,
     "battingStyle": "Left-Hand-Bat",
     "price": 2000000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/b/b7/David_Warner.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScyIyQdaQ0ZXvwveTIL_O2fkcPXiY2Z-uzIND0eZ75UQ&s=10"
   },
   {
     "id": 10,
@@ -97,7 +97,7 @@
     "rating": 4.9,
     "battingStyle": "Right-Hand-Bat",
     "price": 2200000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/0/04/Rashid_Khan.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTioqDUDFyh-FimUDZhYzE5MUlppgsjm6IHxD5sOeDTDg&s=10"
   },
   {
     "id": 11,
@@ -107,7 +107,7 @@
     "rating": 5.0,
     "battingStyle": "Right-Hand-Bat",
     "price": 2800000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/MS_Dhoni.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX3a7MgZz10tkCGiZ1S9GQAd5OoKODvPXUaVTkgBRXkA&s=10"
   },
   {
     "id": 12,
@@ -117,6 +117,6 @@
     "rating": 4.9,
     "battingStyle": "Right-Hand-Bat",
     "price": 2500000,
-    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Jasprit_Bumrah.jpg"
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9_ym0MkW9ii7vPBmTdfVAKnJT4S4aRm2DbxRyiNp4Rg&s=10"
   }
 ]
