@@ -1,5 +1,6 @@
 const Player = ({ player, handleSelectedPlayer }) => {
   const { id, name, country, role, battingStyle, price, image } = player;
+  
   return (
     <div className="card bg-base-100 w-full shadow-sm">
       <figure className="h-72">
@@ -21,7 +22,7 @@ const Player = ({ player, handleSelectedPlayer }) => {
         <h3 className="text-2xl font-bold">{battingStyle}</h3>
         <div className="card-actions justify-between items-center">
           <div>
-            <h3 className="text-2xl font-semibold">Price: {price}</h3>
+            <h3 className="text-2xl font-semibold">Price: {price} USD</h3>
           </div>
           <div>
             <button

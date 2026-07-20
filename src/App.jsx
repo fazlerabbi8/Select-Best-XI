@@ -19,23 +19,28 @@ function App() {
       toast.error("You already claimed your free credit!");
       return;
     }
-    setCredit((prev) => prev + 30000000);
+    setCredit((prev) => prev + 8000000);
     setClaimed(true);
     toast.success("30,000,000 credit added!");
   };
-
 
   const handleSelectedPlayer = (player) => {
     const isExist = selectedPlayers.find((p) => p.id == player.id);
 
     if (isExist) {
       toast.error("You already selected this player!");
-    } else {
+    }
+
+    if (credit < player.price) {
+      toast.error("Not enough credit to select this player!");
+      return;
+    } 
       const newPlayers = [...selectedPlayers, player];
       setSelectedPlayers(newPlayers);
 
+      setCredit((prev) => prev - player.price);
+
       toast.success("Player selected successfully!");
-    }
   };
 
   return (
@@ -58,7 +63,8 @@ function App() {
           selectedPlayers={selectedPlayers}
         ></Toggle>
         {activeTab === "available" ? (
-          <AllPlayers handleSelectedPlayer={handleSelectedPlayer} />
+          <AllPlayers handleSelectedPlayer={handleSelectedPlayer} 
+          credit={credit}/>
         ) : (
           <Selected selectedPlayers={selectedPlayers} />
         )}
