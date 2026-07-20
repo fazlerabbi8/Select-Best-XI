@@ -29,6 +29,8 @@ function App() {
   const handleDelete = (id) =>{
     const remainingPlayer = selectedPlayers.filter((p) =>p.id !== id);
     setSelectedPlayers(remainingPlayer);
+
+    toast.error("Player deleted successfully!");
   }
 
   const handleSelectedPlayer = (player) => {
