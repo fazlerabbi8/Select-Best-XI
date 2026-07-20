@@ -1,8 +1,10 @@
-const Toggle = ({ activeTab, setActiveTab }) => {
+const Toggle = ({ activeTab, setActiveTab, selectedPlayers }) => {
   return (
     <div className="flex justify-between items-center">
       <div>
-        <h3 className="text-3xl font-semibold">{activeTab === "available" ? "Available Players" : "Selected Players"}</h3>
+        <h3 className="text-3xl font-semibold">
+          {activeTab === "available" ? "Available Players" : "Selected Players"}
+        </h3>
       </div>
       <div className="flex gap-3">
         <button
@@ -15,7 +17,7 @@ const Toggle = ({ activeTab, setActiveTab }) => {
           onClick={() => setActiveTab("selected")}
           className={`btn ${activeTab === "selected" ? "btn-warning" : ""}`}
         >
-          Selected
+          Selected {selectedPlayers.length}
         </button>
       </div>
     </div>

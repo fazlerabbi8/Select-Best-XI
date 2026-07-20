@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import Player from "../Player/Player";
 
-const AllPlayers = () => {
+const AllPlayers = ({handleSelectedPlayer}) => {
   const [players, setAllPlayers] = useState([]);
 
   useEffect(() => {
@@ -13,7 +13,7 @@ const AllPlayers = () => {
     <div>
       <div className="grid grid-cols-1 gap-5 md:grid-cols-2 lg:grid-cols-4 space-y-10 mt-10">
         {players.map((player) => (
-          <Player key={player.id} player={player}></Player>
+          <Player key={player.id} player={player} handleSelectedPlayer = {handleSelectedPlayer}></Player>
         ))}
       </div>
     </div>
